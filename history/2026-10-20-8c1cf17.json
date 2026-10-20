@@ -1,0 +1,1239 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.codahaleIncNoLabels",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 48387.812091232474,
+            "scoreError" : 1930.37047064272,
+            "scoreConfidence" : [
+                46457.44162058975,
+                50318.1825618752
+            ],
+            "scorePercentiles" : {
+                "0.0" : 46921.10769450189,
+                "50.0" : 47421.55051501534,
+                "90.0" : 50872.48823271519,
+                "95.0" : 50878.11089324001,
+                "99.0" : 50878.11089324001,
+                "99.9" : 50878.11089324001,
+                "99.99" : 50878.11089324001,
+                "99.999" : 50878.11089324001,
+                "99.9999" : 50878.11089324001,
+                "100.0" : 50878.11089324001
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    47468.658170267096,
+                    47441.57219213557,
+                    47421.55051501534,
+                    47374.0041075473,
+                    47163.104769117315
+                ],
+                [
+                    46921.63429890952,
+                    46947.93474722071,
+                    46969.39209196683,
+                    46921.10769450189,
+                    46984.75168067188
+                ],
+                [
+                    50868.73979236531,
+                    50820.78989878657,
+                    50878.11089324001,
+                    50777.90965743735,
+                    50857.92085930453
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.openTelemetryAdd",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1371.6732360596864,
+            "scoreError" : 245.7602885817105,
+            "scoreConfidence" : [
+                1125.9129474779759,
+                1617.4335246413968
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1204.510325061396,
+                "50.0" : 1225.772644701596,
+                "90.0" : 1700.5614153273643,
+                "95.0" : 1742.9569303814633,
+                "99.0" : 1742.9569303814633,
+                "99.9" : 1742.9569303814633,
+                "99.99" : 1742.9569303814633,
+                "99.999" : 1742.9569303814633,
+                "99.9999" : 1742.9569303814633,
+                "100.0" : 1742.9569303814633
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1204.77065699216,
+                    1204.510325061396,
+                    1204.9541309929427,
+                    1204.8985996439199,
+                    1204.9531958452114
+                ],
+                [
+                    1669.07584112706,
+                    1669.356657578993,
+                    1669.4103346488848,
+                    1672.2977386246316,
+                    1742.9569303814633
+                ],
+                [
+                    1225.0997580150733,
+                    1225.045097075714,
+                    1225.9575128451957,
+                    1225.772644701596,
+                    1226.039117361055
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.openTelemetryInc",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1253.111439863637,
+            "scoreError" : 20.918317918437698,
+            "scoreConfidence" : [
+                1232.1931219451994,
+                1274.0297577820747
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1238.1619156766872,
+                "50.0" : 1240.8808992867014,
+                "90.0" : 1280.0926246563804,
+                "95.0" : 1280.2113215236413,
+                "99.0" : 1280.2113215236413,
+                "99.9" : 1280.2113215236413,
+                "99.99" : 1280.2113215236413,
+                "99.999" : 1280.2113215236413,
+                "99.9999" : 1280.2113215236413,
+                "100.0" : 1280.2113215236413
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1238.4162748432643,
+                    1238.1619156766872,
+                    1239.0275304228317,
+                    1238.9942366323462,
+                    1239.010917993103
+                ],
+                [
+                    1279.233381455993,
+                    1279.7570498544515,
+                    1279.8594706147837,
+                    1280.2113215236413,
+                    1280.01349341154
+                ],
+                [
+                    1240.7731109228614,
+                    1240.5205210252534,
+                    1240.8894929615417,
+                    1240.8808992867014,
+                    1240.9219813295567
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.openTelemetryIncNoLabels",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1183.3276963290523,
+            "scoreError" : 58.72276088348646,
+            "scoreConfidence" : [
+                1124.6049354455658,
+                1242.0504572125387
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1108.5383101017476,
+                "50.0" : 1213.166806472332,
+                "90.0" : 1228.8079275031432,
+                "95.0" : 1228.8718584930202,
+                "99.0" : 1228.8718584930202,
+                "99.9" : 1228.8718584930202,
+                "99.99" : 1228.8718584930202,
+                "99.999" : 1228.8718584930202,
+                "99.9999" : 1228.8718584930202,
+                "100.0" : 1228.8718584930202
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1108.6998424144745,
+                    1108.8457360654877,
+                    1108.7921622343918,
+                    1108.993219550539,
+                    1108.5383101017476
+                ],
+                [
+                    1212.0548259857485,
+                    1212.2616707240086,
+                    1213.166806472332,
+                    1214.8199214384906,
+                    1213.9811914830636
+                ],
+                [
+                    1228.2418689525052,
+                    1228.5358910025318,
+                    1225.3468331742151,
+                    1228.765306843225,
+                    1228.8718584930202
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.prometheusAdd",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 49192.910455161866,
+            "scoreError" : 2623.7877789840654,
+            "scoreConfidence" : [
+                46569.1226761778,
+                51816.69823414593
+            ],
+            "scorePercentiles" : {
+                "0.0" : 45944.83864591229,
+                "50.0" : 49935.143088238576,
+                "90.0" : 51690.060023932354,
+                "95.0" : 51717.13460573218,
+                "99.0" : 51717.13460573218,
+                "99.9" : 51717.13460573218,
+                "99.99" : 51717.13460573218,
+                "99.999" : 51717.13460573218,
+                "99.9999" : 51717.13460573218,
+                "100.0" : 51717.13460573218
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    51672.010302732466,
+                    51488.91924660828,
+                    51670.50170646436,
+                    51717.13460573218,
+                    51620.731463221484
+                ],
+                [
+                    50179.778334648596,
+                    49737.793796564976,
+                    49910.990530388495,
+                    50035.75362235581,
+                    49935.143088238576
+                ],
+                [
+                    45983.99404947159,
+                    45979.963094267056,
+                    45968.45518748278,
+                    45944.83864591229,
+                    46047.64915333917
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.prometheusInc",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 65459.21010615971,
+            "scoreError" : 1647.9438207847302,
+            "scoreConfidence" : [
+                63811.266285374986,
+                67107.15392694445
+            ],
+            "scorePercentiles" : {
+                "0.0" : 63346.24901181509,
+                "50.0" : 65891.04238651978,
+                "90.0" : 67061.7927622927,
+                "95.0" : 67064.87976319391,
+                "99.0" : 67064.87976319391,
+                "99.9" : 67064.87976319391,
+                "99.99" : 67064.87976319391,
+                "99.999" : 67064.87976319391,
+                "99.9999" : 67064.87976319391,
+                "100.0" : 67064.87976319391
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    65866.95130862296,
+                    65693.41580519735,
+                    65923.67471423035,
+                    65891.04238651978,
+                    65921.73848465488
+                ],
+                [
+                    67034.26649770878,
+                    67041.13377566134,
+                    67041.00029783814,
+                    67059.73476169189,
+                    67064.87976319391
+                ],
+                [
+                    63496.32647346119,
+                    63490.87511531413,
+                    63532.95424121871,
+                    63346.24901181509,
+                    63483.90895526719
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.prometheusNoLabelsInc",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 56690.86619257775,
+            "scoreError" : 510.4538662128791,
+            "scoreConfidence" : [
+                56180.41232636487,
+                57201.320058790625
+            ],
+            "scorePercentiles" : {
+                "0.0" : 56137.95849540556,
+                "50.0" : 56491.92141290103,
+                "90.0" : 57362.320638918965,
+                "95.0" : 57365.86934496656,
+                "99.0" : 57365.86934496656,
+                "99.9" : 57365.86934496656,
+                "99.99" : 57365.86934496656,
+                "99.999" : 57365.86934496656,
+                "99.9999" : 57365.86934496656,
+                "100.0" : 57365.86934496656
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    57356.16616526618,
+                    57192.41613497827,
+                    57357.694256058436,
+                    57365.86934496656,
+                    57359.954834887234
+                ],
+                [
+                    56491.92141290103,
+                    56461.46384980706,
+                    56456.434574095154,
+                    56503.084738728925,
+                    56493.02212389064
+                ],
+                [
+                    56268.562976011875,
+                    56307.200645681834,
+                    56302.434653611126,
+                    56137.95849540556,
+                    56308.808682376344
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.simpleclientAdd",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6171.621402636801,
+            "scoreError" : 228.02444851045894,
+            "scoreConfidence" : [
+                5943.596954126342,
+                6399.645851147259
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5948.131241551091,
+                "50.0" : 6109.478851178163,
+                "90.0" : 6454.344006505177,
+                "95.0" : 6454.814590480431,
+                "99.0" : 6454.814590480431,
+                "99.9" : 6454.814590480431,
+                "99.99" : 6454.814590480431,
+                "99.999" : 6454.814590480431,
+                "99.9999" : 6454.814590480431,
+                "100.0" : 6454.814590480431
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5963.194809508597,
+                    5948.131241551091,
+                    5964.777383966248,
+                    5961.4562778352965,
+                    5948.497664862254
+                ],
+                [
+                    6454.030283855008,
+                    6451.106450204214,
+                    6451.391359222225,
+                    6454.814590480431,
+                    6436.229058432781
+                ],
+                [
+                    6109.478851178163,
+                    6114.909493626903,
+                    6114.936119062163,
+                    6094.1491561007615,
+                    6107.21829966589
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.simpleclientInc",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6705.706520552265,
+            "scoreError" : 13.41172800406718,
+            "scoreConfidence" : [
+                6692.294792548198,
+                6719.118248556332
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6678.594972489369,
+                "50.0" : 6705.423058307929,
+                "90.0" : 6721.374482003539,
+                "95.0" : 6721.691709460938,
+                "99.0" : 6721.691709460938,
+                "99.9" : 6721.691709460938,
+                "99.99" : 6721.691709460938,
+                "99.999" : 6721.691709460938,
+                "99.9999" : 6721.691709460938,
+                "100.0" : 6721.691709460938
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    6706.548784337121,
+                    6687.887986675979,
+                    6704.646162763289,
+                    6706.218875696043,
+                    6705.423058307929
+                ],
+                [
+                    6717.226960241109,
+                    6719.493666153671,
+                    6718.656089118854,
+                    6721.691709460938,
+                    6721.162997031939
+                ],
+                [
+                    6701.475016599392,
+                    6698.6149844401225,
+                    6700.563230619669,
+                    6678.594972489369,
+                    6697.393314348554
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.CounterBenchmark.simpleclientNoLabelsInc",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6191.144139494735,
+            "scoreError" : 21.86374371447316,
+            "scoreConfidence" : [
+                6169.280395780262,
+                6213.007883209209
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6167.611368733918,
+                "50.0" : 6190.054711750052,
+                "90.0" : 6220.287966195009,
+                "95.0" : 6221.340488780081,
+                "99.0" : 6221.340488780081,
+                "99.9" : 6221.340488780081,
+                "99.99" : 6221.340488780081,
+                "99.999" : 6221.340488780081,
+                "99.9999" : 6221.340488780081,
+                "100.0" : 6221.340488780081
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    6218.617088898205,
+                    6202.51288618879,
+                    6219.5862844716285,
+                    6221.340488780081,
+                    6217.058980386549
+                ],
+                [
+                    6169.762240926698,
+                    6169.09159514255,
+                    6167.611368733918,
+                    6171.181768388197,
+                    6170.907176893821
+                ],
+                [
+                    6190.054711750052,
+                    6191.036203341491,
+                    6193.883194984277,
+                    6174.933241910222,
+                    6189.58486162457
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.HistogramBenchmark.openTelemetryClassic",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 648.2908208774642,
+            "scoreError" : 15.162859924574342,
+            "scoreConfidence" : [
+                633.1279609528898,
+                663.4536808020385
+            ],
+            "scorePercentiles" : {
+                "0.0" : 635.2638832744635,
+                "50.0" : 641.0759546066965,
+                "90.0" : 669.5356298156756,
+                "95.0" : 669.87512481626,
+                "99.0" : 669.87512481626,
+                "99.9" : 669.87512481626,
+                "99.99" : 669.87512481626,
+                "99.999" : 669.87512481626,
+                "99.9999" : 669.87512481626,
+                "100.0" : 669.87512481626
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    669.87512481626,
+                    669.309299815286,
+                    667.5042171827262,
+                    665.8025621323018,
+                    664.6148053713612
+                ],
+                [
+                    639.7888283773871,
+                    640.0705912225164,
+                    641.4245504433221,
+                    641.772973959926,
+                    641.0759546066965
+                ],
+                [
+                    637.7485573644194,
+                    636.0351677865992,
+                    637.5671269907787,
+                    636.5086698179191,
+                    635.2638832744635
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.HistogramBenchmark.openTelemetryExponential",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 585.0950293945357,
+            "scoreError" : 37.42844257678609,
+            "scoreConfidence" : [
+                547.6665868177496,
+                622.5234719713218
+            ],
+            "scorePercentiles" : {
+                "0.0" : 537.1318072376026,
+                "50.0" : 604.620476961632,
+                "90.0" : 613.9028476779561,
+                "95.0" : 614.3998582894153,
+                "99.0" : 614.3998582894153,
+                "99.9" : 614.3998582894153,
+                "99.99" : 614.3998582894153,
+                "99.999" : 614.3998582894153,
+                "99.9999" : 614.3998582894153,
+                "100.0" : 614.3998582894153
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    612.3382416757308,
+                    614.3998582894153,
+                    613.5715072703165,
+                    612.6562372638481,
+                    612.7413802250544
+                ],
+                [
+                    604.382898600561,
+                    604.808650279719,
+                    604.620476961632,
+                    604.5587586785693,
+                    604.7492270739317
+                ],
+                [
+                    537.1318072376026,
+                    537.4083692883623,
+                    537.9288933032367,
+                    537.3160132220671,
+                    537.8131215479896
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.HistogramBenchmark.prometheusClassic",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5290.371300294801,
+            "scoreError" : 68.80676026628942,
+            "scoreConfidence" : [
+                5221.564540028511,
+                5359.17806056109
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5223.368999972591,
+                "50.0" : 5270.408445608495,
+                "90.0" : 5377.405569539607,
+                "95.0" : 5380.1802819635595,
+                "99.0" : 5380.1802819635595,
+                "99.9" : 5380.1802819635595,
+                "99.99" : 5380.1802819635595,
+                "99.999" : 5380.1802819635595,
+                "99.9999" : 5380.1802819635595,
+                "100.0" : 5380.1802819635595
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5267.595612977206,
+                    5270.408445608495,
+                    5270.1399931673195,
+                    5272.878141717305,
+                    5272.040950688337
+                ],
+                [
+                    5380.1802819635595,
+                    5374.963146890996,
+                    5371.5430509986345,
+                    5375.555761256972,
+                    5369.682352777668
+                ],
+                [
+                    5223.368999972591,
+                    5229.083163349607,
+                    5227.778734886289,
+                    5226.670527409355,
+                    5223.680340757681
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.HistogramBenchmark.prometheusNative",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3124.0934438450727,
+            "scoreError" : 34.31554290777816,
+            "scoreConfidence" : [
+                3089.7779009372944,
+                3158.408986752851
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3076.704019054123,
+                "50.0" : 3137.9017748024835,
+                "90.0" : 3159.7235153134548,
+                "95.0" : 3173.2885001659947,
+                "99.0" : 3173.2885001659947,
+                "99.9" : 3173.2885001659947,
+                "99.99" : 3173.2885001659947,
+                "99.999" : 3173.2885001659947,
+                "99.9999" : 3173.2885001659947,
+                "100.0" : 3173.2885001659947
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    3173.2885001659947,
+                    3076.704019054123,
+                    3076.7870998093103,
+                    3077.784451135001,
+                    3080.915765434873
+                ],
+                [
+                    3102.9027910317677,
+                    3145.61414135824,
+                    3137.685495450204,
+                    3149.8871585505553,
+                    3138.352433888594
+                ],
+                [
+                    3150.6801920784283,
+                    3141.0310940055,
+                    3129.5432188525956,
+                    3137.9017748024835,
+                    3142.3235220584183
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.HistogramBenchmark.simpleclient",
+        "mode" : "thrpt",
+        "threads" : 4,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4447.9161347825275,
+            "scoreError" : 63.352082521041204,
+            "scoreConfidence" : [
+                4384.564052261487,
+                4511.268217303568
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4365.392112431651,
+                "50.0" : 4475.54232607381,
+                "90.0" : 4506.384774229535,
+                "95.0" : 4508.439616534779,
+                "99.0" : 4508.439616534779,
+                "99.9" : 4508.439616534779,
+                "99.99" : 4508.439616534779,
+                "99.999" : 4508.439616534779,
+                "99.9999" : 4508.439616534779,
+                "100.0" : 4508.439616534779
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4456.928008747638,
+                    4475.54232607381,
+                    4476.20227270252,
+                    4474.890322569738,
+                    4477.226776170532
+                ],
+                [
+                    4369.1205930793085,
+                    4369.094569237674,
+                    4372.282568095599,
+                    4370.320136929916,
+                    4365.392112431651
+                ],
+                [
+                    4501.667641276759,
+                    4505.014879359372,
+                    4492.502077967678,
+                    4504.118120560939,
+                    4508.439616534779
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.TextFormatUtilBenchmark.openMetricsWriteToByteArray",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 510138.4471789365,
+            "scoreError" : 3270.16203647755,
+            "scoreConfidence" : [
+                506868.285142459,
+                513408.60921541404
+            ],
+            "scorePercentiles" : {
+                "0.0" : 504593.6344707631,
+                "50.0" : 509733.79023394996,
+                "90.0" : 515229.5807282192,
+                "95.0" : 515493.9201034025,
+                "99.0" : 515493.9201034025,
+                "99.9" : 515493.9201034025,
+                "99.99" : 515493.9201034025,
+                "99.999" : 515493.9201034025,
+                "99.9999" : 515493.9201034025,
+                "100.0" : 515493.9201034025
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    508737.03221989603,
+                    508753.8370479556,
+                    504593.6344707631,
+                    506904.55992667546,
+                    507045.5211529256
+                ],
+                [
+                    511963.8687182273,
+                    510884.6135944704,
+                    509650.07513415825,
+                    509733.79023394996,
+                    507395.2673772935
+                ],
+                [
+                    511161.2759762412,
+                    515053.35447809694,
+                    515493.9201034025,
+                    511705.37255739915,
+                    513000.5846925925
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.TextFormatUtilBenchmark.openMetricsWriteToNull",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 509736.07043182064,
+            "scoreError" : 4239.434804273493,
+            "scoreConfidence" : [
+                505496.63562754716,
+                513975.5052360941
+            ],
+            "scorePercentiles" : {
+                "0.0" : 499237.1641651827,
+                "50.0" : 510083.8635072993,
+                "90.0" : 514702.2318065516,
+                "95.0" : 516010.5030240273,
+                "99.0" : 516010.5030240273,
+                "99.9" : 516010.5030240273,
+                "99.99" : 516010.5030240273,
+                "99.999" : 516010.5030240273,
+                "99.9999" : 516010.5030240273,
+                "100.0" : 516010.5030240273
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    513830.0509949011,
+                    513792.8979202824,
+                    509856.6176728027,
+                    516010.5030240273,
+                    512870.5376534221
+                ],
+                [
+                    510114.5908758652,
+                    507520.7156791968,
+                    510083.8635072993,
+                    511468.24289647926,
+                    510393.30046699505
+                ],
+                [
+                    507374.1868596368,
+                    507031.56768895005,
+                    509083.86901738483,
+                    499237.1641651827,
+                    507372.9480548839
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.TextFormatUtilBenchmark.prometheusWriteToByteArray",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 535003.1657603919,
+            "scoreError" : 5991.31996343673,
+            "scoreConfidence" : [
+                529011.8457969552,
+                540994.4857238285
+            ],
+            "scorePercentiles" : {
+                "0.0" : 528293.8082748771,
+                "50.0" : 532395.9977230116,
+                "90.0" : 542806.6476254603,
+                "95.0" : 543814.2861486588,
+                "99.0" : 543814.2861486588,
+                "99.9" : 543814.2861486588,
+                "99.99" : 543814.2861486588,
+                "99.999" : 543814.2861486588,
+                "99.9999" : 543814.2861486588,
+                "100.0" : 543814.2861486588
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    532395.9977230116,
+                    529312.6731722003,
+                    528293.8082748771,
+                    534848.0825774678,
+                    539066.1146498558
+                ],
+                [
+                    530428.9016237016,
+                    529880.1955258136,
+                    530737.6080311497,
+                    531868.0174664306,
+                    529584.8643577165
+                ],
+                [
+                    539789.0495376699,
+                    542134.8886099946,
+                    541445.3133945632,
+                    541447.6853127653,
+                    543814.2861486588
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "io.prometheus.metrics.benchmarks.TextFormatUtilBenchmark.prometheusWriteToNull",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/home/runner/.local/share/mise/installs/java/temurin-25.0.2+10.0.LTS/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "25.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.0.2+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 538840.7463378209,
+            "scoreError" : 2936.002797221564,
+            "scoreConfidence" : [
+                535904.7435405994,
+                541776.7491350424
+            ],
+            "scorePercentiles" : {
+                "0.0" : 535126.6038350404,
+                "50.0" : 538334.4862220815,
+                "90.0" : 543638.6651125117,
+                "95.0" : 544509.878679883,
+                "99.0" : 544509.878679883,
+                "99.9" : 544509.878679883,
+                "99.99" : 544509.878679883,
+                "99.999" : 544509.878679883,
+                "99.9999" : 544509.878679883,
+                "100.0" : 544509.878679883
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    536180.0379278533,
+                    538609.0144408632,
+                    537496.1084706256,
+                    538334.4862220815,
+                    537951.2047181122
+                ],
+                [
+                    535126.6038350404,
+                    537359.8601239277,
+                    540355.4470887096,
+                    538467.1428695803,
+                    535668.6636794996
+                ],
+                [
+                    542457.5224743861,
+                    543057.8560675975,
+                    539916.7357867453,
+                    537120.6326824077,
+                    544509.878679883
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
